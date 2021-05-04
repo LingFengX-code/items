@@ -1,0 +1,5 @@
+com\heifeng\upload\HeifengUploadApplication.class
+com\heifeng\upload\controller\UploadController.class
+com\heifeng\upload\service\UploadService.class
+com\heifeng\upload\config\FastClientImporter.class
+com\heifeng\upload\config\LeyouCorsConfiguration.class

@@ -1,0 +1,33 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: heifeng-gateway
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 #拉取服务间隔
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+zuul:
+  prefix: /api # 路由路径前缀,带api的请求都会跳到这里来
+  routes:
+    heifeng-item-service: /item/** # 商品微服务的映射路径
+    heifeng-search-service: /search/** # 搜索服务的映射路径
+    heifeng-user-registry-service: /user/**  #用户登录注册模块(短信服务)的映射路径
+    heifeng-auth-service: /auth/** # 授权中心微服务
+  ignored-services:
+    - heifeng-upload-service # 忽略heifeng-upload-service文件上传服务
+  add-host-header: true #允许携带请求本身的头信息
+  sensitive-headers: #配置禁止使用的头信息，设置为null时即没有禁止的（保证set-cookie不被过滤掉）
+heifeng:
+  jwt:
+    pubKeyPath:  C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: HFeng_TOKEN # cookie的名称
+  filter:
+    allowPaths: #允许访问的白名单
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/send
+      - /api/item

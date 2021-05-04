@@ -1,0 +1,9 @@
+com\heifeng\goods\client\BrandClient.class
+com\heifeng\goods\listener\GoodsListener.class
+com\heifeng\goods\client\GoodsClient.class
+com\heifeng\goods\client\CategoryClient.class
+com\heifeng\goods\service\GoodsService.class
+com\heifeng\goods\controller\GoodsController.class
+com\heifeng\goods\service\GoodsHtmlService.class
+com\heifeng\goods\client\SpecificationClient.class
+com\heifeng\goods\HeifengGoodsWebApplication.class

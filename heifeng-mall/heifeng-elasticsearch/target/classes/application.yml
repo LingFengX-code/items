@@ -1,0 +1,23 @@
+server:
+  port: 10203
+spring:
+  application:
+    name: heifeng-search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
+  jackson:
+    default-property-inclusion: non_null # 配置json处理时忽略空值
+  rabbitmq:
+    host: 192.168.164.132
+    username: admin
+    password: 0105.com
+    virtual-host: /heifeng
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期

@@ -1,0 +1,19 @@
+server:
+  port: 10204
+spring:
+  application:
+    name: heifeng-goods-details
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 192.168.164.132
+    username: admin
+    password: 0105.com
+    virtual-host: /heifeng
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期

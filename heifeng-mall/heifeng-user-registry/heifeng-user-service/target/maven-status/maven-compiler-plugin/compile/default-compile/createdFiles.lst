@@ -1,0 +1,4 @@
+com\heifeng\registry\user\HeifengUserApplication.class
+com\heifeng\registry\user\mapper\UserMapper.class
+com\heifeng\registry\user\controller\UserController.class
+com\heifeng\registry\user\service\UserService.class

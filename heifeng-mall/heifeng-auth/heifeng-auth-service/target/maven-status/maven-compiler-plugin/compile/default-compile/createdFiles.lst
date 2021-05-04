@@ -1,0 +1,5 @@
+com\heifeng\auth\client\UserClient.class
+com\heifeng\auth\config\JwtProperties.class
+com\heifeng\auth\controller\AuthController.class
+com\heifeng\auth\HeifengAuthApplication.class
+com\heifeng\auth\service\AuthService.class

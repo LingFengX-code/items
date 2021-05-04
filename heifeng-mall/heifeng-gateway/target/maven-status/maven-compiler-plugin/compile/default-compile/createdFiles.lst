@@ -1,0 +1,5 @@
+com\heifeng\config\JwtProperties.class
+com\heifeng\HeifengGatewayApplication.class
+com\heifeng\config\LeyouCorsConfiguration.class
+com\heifeng\filter\LoginFilter.class
+com\heifeng\config\FilterProperties.class

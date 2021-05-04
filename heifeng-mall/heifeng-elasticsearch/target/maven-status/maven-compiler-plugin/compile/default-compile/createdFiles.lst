@@ -1,0 +1,14 @@
+com\heifeng\search\client\CategoryClient.class
+com\heifeng\search\controller\SearchController.class
+com\heifeng\search\listener\GoodsListener.class
+com\heifeng\search\HeifengSearchApplication.class
+com\heifeng\search\client\GoodsClient.class
+com\heifeng\search\service\SearchService$2.class
+com\heifeng\search\service\SearchService$1.class
+com\heifeng\search\pojo\SearchRequest.class
+com\heifeng\search\repository\GoodsRepository.class
+com\heifeng\search\client\BrandClient.class
+com\heifeng\search\pojo\SearchResult.class
+com\heifeng\search\pojo\Goods.class
+com\heifeng\search\service\SearchService.class
+com\heifeng\search\client\SpecificationClient.class

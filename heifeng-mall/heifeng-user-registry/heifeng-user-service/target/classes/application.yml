@@ -1,0 +1,27 @@
+server:
+  port: 10205
+spring:
+  application:
+    name: heifeng-user-registry-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_heifeng_mall?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: xlf19990105
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.164.131
+  rabbitmq:
+    host: 192.168.164.132
+    username: admin
+    password: 0105.com
+    virtual-host: /heifeng
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10001/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+mybatis:
+  type-aliases-package: com.heifeng.user.registry.pojo

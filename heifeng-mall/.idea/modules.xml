@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/heifeng-auth/heifeng-auth.iml" filepath="$PROJECT_DIR$/heifeng-auth/heifeng-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-auth/heifeng-auth-common/heifeng-auth-common.iml" filepath="$PROJECT_DIR$/heifeng-auth/heifeng-auth-common/heifeng-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-auth/heifeng-auth-service/heifeng-auth-service.iml" filepath="$PROJECT_DIR$/heifeng-auth/heifeng-auth-service/heifeng-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-cart/heifeng-cart.iml" filepath="$PROJECT_DIR$/heifeng-cart/heifeng-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-common/heifeng-common.iml" filepath="$PROJECT_DIR$/heifeng-common/heifeng-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-elasticsearch/heifeng-elasticsearch.iml" filepath="$PROJECT_DIR$/heifeng-elasticsearch/heifeng-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-gateway/heifeng-gateway.iml" filepath="$PROJECT_DIR$/heifeng-gateway/heifeng-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-goods-details/heifeng-goods-details.iml" filepath="$PROJECT_DIR$/heifeng-goods-details/heifeng-goods-details.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-item/heifeng-item.iml" filepath="$PROJECT_DIR$/heifeng-item/heifeng-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-item/heifeng-item-interface/heifeng-item-interface.iml" filepath="$PROJECT_DIR$/heifeng-item/heifeng-item-interface/heifeng-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-item/heifeng-item-service/heifeng-item-service.iml" filepath="$PROJECT_DIR$/heifeng-item/heifeng-item-service/heifeng-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-mall.iml" filepath="$PROJECT_DIR$/heifeng-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../heifeng-manage-web/heifeng-manage-web.iml" filepath="$PROJECT_DIR$/../heifeng-manage-web/heifeng-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../heifeng-portal/heifeng-portal.iml" filepath="$PROJECT_DIR$/../heifeng-portal/heifeng-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-registry/heifeng-registry.iml" filepath="$PROJECT_DIR$/heifeng-registry/heifeng-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-sms/heifeng-sms.iml" filepath="$PROJECT_DIR$/heifeng-sms/heifeng-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-upload/heifeng-upload.iml" filepath="$PROJECT_DIR$/heifeng-upload/heifeng-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-user-registry/heifeng-user-interface/heifeng-user-interface.iml" filepath="$PROJECT_DIR$/heifeng-user-registry/heifeng-user-interface/heifeng-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-user-registry/heifeng-user-registry.iml" filepath="$PROJECT_DIR$/heifeng-user-registry/heifeng-user-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heifeng-user-registry/heifeng-user-service/heifeng-user-service.iml" filepath="$PROJECT_DIR$/heifeng-user-registry/heifeng-user-service/heifeng-user-service.iml" />
+    </modules>
+  </component>
+</project>

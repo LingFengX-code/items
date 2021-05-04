@@ -1,0 +1,13 @@
+com\heifeng\item\bo\SpuBo.class
+com\heifeng\item\pojo\Stock.class
+com\heifeng\item\api\BrandApi.class
+com\heifeng\item\pojo\SpuDetail.class
+com\heifeng\item\pojo\Sku.class
+com\heifeng\item\api\SpecificationApi.class
+com\heifeng\item\pojo\Brand.class
+com\heifeng\item\pojo\SpecParam.class
+com\heifeng\item\pojo\Spu.class
+com\heifeng\item\pojo\Category.class
+com\heifeng\item\api\CategoryApi.class
+com\heifeng\item\api\GoodsApi.class
+com\heifeng\item\pojo\SpecGroup.class

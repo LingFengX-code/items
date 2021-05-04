@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-auth/heifeng-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-auth/heifeng-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-goods-details" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-item/heifeng-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-item/heifeng-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-user-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-user-registry/heifeng-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heifeng-user-registry/heifeng-user-service" charset="UTF-8" />
+  </component>
+</project>

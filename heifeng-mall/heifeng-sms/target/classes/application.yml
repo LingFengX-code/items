@@ -1,0 +1,17 @@
+server:
+  port: 10303
+spring:
+  application:
+    name: heifeng-sms-service
+  rabbitmq:
+    host: 192.168.164.132
+    username: admin
+    password: 0105.com
+    virtual-host: /heifeng
+#自定义读写配置信息
+heifeng:
+  sms:
+    accessKeyId: LTAI4GDmsWvxCqsnzBUekgYw # 购买服务上的accessKeyId
+    accessKeySecret: YhzOZ69kFarWgJSmlTs4QxQ4UDVRIz # 购买服务上的AccessKeySecret
+    signName: 嘿风商城 # 签名名称
+    verifyCodeTemplate: SMS_202551868 # 模板CODE

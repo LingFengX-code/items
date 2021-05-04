@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heifeng-goods-details" />
+        <module name="heifeng-auth-common" />
+        <module name="heifeng-upload" />
+        <module name="heifeng-user-interface" />
+        <module name="heifeng-item-interface" />
+        <module name="heifeng-user-service" />
+        <module name="heifeng-common" />
+        <module name="heifeng-item-service" />
+        <module name="heifeng-registry" />
+        <module name="heifeng-elasticsearch" />
+        <module name="heifeng-auth-service" />
+        <module name="heifeng-sms" />
+        <module name="heifeng-cart" />
+        <module name="heifeng-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heifeng-auth" target="1.8" />
+      <module name="heifeng-auth-common" target="1.8" />
+      <module name="heifeng-auth-service" target="1.8" />
+      <module name="heifeng-cart" target="1.8" />
+      <module name="heifeng-common" target="1.8" />
+      <module name="heifeng-elasticsearch" target="1.8" />
+      <module name="heifeng-gateway" target="1.8" />
+      <module name="heifeng-goods-details" target="1.8" />
+      <module name="heifeng-item" target="1.8" />
+      <module name="heifeng-item-interface" target="1.8" />
+      <module name="heifeng-item-service" target="1.8" />
+      <module name="heifeng-mall" target="1.8" />
+      <module name="heifeng-registry" target="1.8" />
+      <module name="heifeng-sms" target="1.8" />
+      <module name="heifeng-upload" target="1.8" />
+      <module name="heifeng-user-interface" target="1.8" />
+      <module name="heifeng-user-registry" target="1.8" />
+      <module name="heifeng-user-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="heifeng-auth-common" options="-parameters" />
+      <module name="heifeng-auth-service" options="-parameters" />
+      <module name="heifeng-cart" options="-parameters" />
+      <module name="heifeng-common" options="-parameters" />
+      <module name="heifeng-elasticsearch" options="-parameters" />
+      <module name="heifeng-gateway" options="-parameters" />
+      <module name="heifeng-goods-details" options="-parameters" />
+      <module name="heifeng-item-interface" options="-parameters" />
+      <module name="heifeng-item-service" options="-parameters" />
+      <module name="heifeng-registry" options="-parameters" />
+      <module name="heifeng-sms" options="-parameters" />
+      <module name="heifeng-upload" options="-parameters" />
+      <module name="heifeng-user-interface" options="-parameters" />
+      <module name="heifeng-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
